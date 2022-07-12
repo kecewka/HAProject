@@ -59,11 +59,11 @@ public class Book {
         this.numberOfPages = numberOfPages;
     }
 
-    public int getYeorOfReelase() {
+    public int getYeorOfRelease() {
         return yeorOfRelease;
     }
 
-    public void setYeorOfReelase(int yeorOfReelase) {
-        this.yeorOfRelease = yeorOfReelase;
+    public void setYeorOfReelase(int yeorOfRelease) {
+        this.yeorOfRelease = yeorOfRelease;
     }
 }

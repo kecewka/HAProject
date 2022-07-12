@@ -23,11 +23,11 @@ public class Publisher {
         this.name = name;
     }
 
-    public List<Book> getPublishBooksList() {
+    public List<Book> getPublishedBooksList() {
         return publishedBooksList;
     }
 
-    public void setPublishBooksList(List<Book> publishBooksList) {
-        this.publishedBooksList = publishBooksList;
+    public void setPublishBooksList(List<Book> publishedBooksList) {
+        this.publishedBooksList = publishedBooksList;
     }
 }
