@@ -5,7 +5,7 @@ import java.util.List;
 public class Publisher {
     private int id;
     private String name;
-    private List<Book> publishBooksList;
+    private List<Book> publishedBooksList;
 
     public int getId() {
         return id;
@@ -24,10 +24,10 @@ public class Publisher {
     }
 
     public List<Book> getPublishBooksList() {
-        return publishBooksList;
+        return publishedBooksList;
     }
 
     public void setPublishBooksList(List<Book> publishBooksList) {
-        this.publishBooksList = publishBooksList;
+        this.publishedBooksList = publishBooksList;
     }
 }

@@ -9,7 +9,7 @@ public class Book {
     private Publisher publisher;
     private String name;
     private int numberOfPages;
-    private int yeorOfReelase;
+    private int yeorOfRelease;
 
     public int getId() {
         return id;
@@ -60,10 +60,10 @@ public class Book {
     }
 
     public int getYeorOfReelase() {
-        return yeorOfReelase;
+        return yeorOfRelease;
     }
 
     public void setYeorOfReelase(int yeorOfReelase) {
-        this.yeorOfReelase = yeorOfReelase;
+        this.yeorOfRelease = yeorOfReelase;
     }
 }
