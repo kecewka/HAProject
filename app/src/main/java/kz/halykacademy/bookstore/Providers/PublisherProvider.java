@@ -1,4 +1,6 @@
-package kz.halykacademy.bookstore;
+package kz.halykacademy.bookstore.Providers;
+
+import kz.halykacademy.bookstore.DTO.Publisher;
 
 import java.util.List;
 

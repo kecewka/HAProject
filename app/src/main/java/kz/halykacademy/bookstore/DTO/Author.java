@@ -1,4 +1,4 @@
-package kz.halykacademy.bookstore;
+package kz.halykacademy.bookstore.DTO;
 
 import java.time.LocalDate;
 import java.util.List;
@@ -9,7 +9,7 @@ public class Author {
     private String name;
     private String patronymicName;
     private LocalDate dateOfBirth;
-    private List<Book> writtenBookList;
+    private List<Book> writtenBooksList;
 
     public int getId() {
         return id;
@@ -51,11 +51,11 @@ public class Author {
         this.dateOfBirth = dateOfBirth;
     }
 
-    public List<Book> getWrittenBookList() {
-        return writtenBookList;
+    public List<Book> getWrittenBooksList() {
+        return writtenBooksList;
     }
 
-    public void setWrittenBookList(List<Book> writtenBookList) {
-        this.writtenBookList = writtenBookList;
+    public void setWrittenBooksList(List<Book> writtenBooksList) {
+        this.writtenBooksList = writtenBooksList;
     }
 }

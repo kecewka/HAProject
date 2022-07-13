@@ -1,4 +1,4 @@
-package kz.halykacademy.bookstore;
+package kz.halykacademy.bookstore.DTO;
 
 import java.util.List;
 

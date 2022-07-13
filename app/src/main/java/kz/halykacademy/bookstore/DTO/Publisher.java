@@ -1,4 +1,6 @@
-package kz.halykacademy.bookstore;
+package kz.halykacademy.bookstore.DTO;
+
+import kz.halykacademy.bookstore.DTO.Book;
 
 import java.util.List;
 
@@ -27,7 +29,7 @@ public class Publisher {
         return publishedBooksList;
     }
 
-    public void setPublishBooksList(List<Book> publishedBooksList) {
+    public void setPublishedBooksList(List<Book> publishedBooksList) {
         this.publishedBooksList = publishedBooksList;
     }
 }
