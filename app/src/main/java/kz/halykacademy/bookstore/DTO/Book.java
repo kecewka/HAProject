@@ -3,21 +3,12 @@ package kz.halykacademy.bookstore.DTO;
 import java.util.List;
 
 public class Book {
-    private int id;
     private double price;
     private List<Author> authorsList;
     private Publisher publisher;
     private String name;
     private int numberOfPages;
     private int yeorOfRelease;
-
-    public int getId() {
-        return id;
-    }
-
-    public void setId(int id) {
-        this.id = id;
-    }
 
     public double getPrice() {
         return price;
@@ -66,4 +57,5 @@ public class Book {
     public void setYeorOfReelase(int yeorOfRelease) {
         this.yeorOfRelease = yeorOfRelease;
     }
+
 }
