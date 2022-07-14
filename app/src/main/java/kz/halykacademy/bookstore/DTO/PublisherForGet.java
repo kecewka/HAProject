@@ -1,8 +1,6 @@
 package kz.halykacademy.bookstore.DTO;
 
-import java.util.List;
-
-public class BookForPost extends Book{
+public class PublisherForGet extends Publisher{
     private int id;
 
     public int getId() {
@@ -12,6 +10,4 @@ public class BookForPost extends Book{
     public void setId(int id) {
         this.id = id;
     }
-
-
 }

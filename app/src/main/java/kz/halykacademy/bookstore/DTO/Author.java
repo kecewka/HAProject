@@ -4,20 +4,12 @@ import java.time.LocalDate;
 import java.util.List;
 
 public class Author {
-    private int id;
+
     private String surname;
     private String name;
     private String patronymicName;
     private LocalDate dateOfBirth;
     private List<Book> writtenBooksList;
-
-    public int getId() {
-        return id;
-    }
-
-    public void setId(int id) {
-        this.id = id;
-    }
 
     public String getSurname() {
         return surname;
